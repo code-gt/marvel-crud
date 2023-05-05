@@ -41,6 +41,9 @@ npm install express mustache mustache-express mysql
 > 
 > Alors tapez la commande suivante : `fuser -k 3000/tcp; nodemon`
 
+### Pour que Nodemon restart le server suite à un enregistremennt dans un fichier de view mustache, vous devrez lancer nodemon avec :
+> nodemon -e js,mustache
+
 ### Installation de Xampp
 
 Voici les instructions pour installer un serveur local MySQL (MariaDB) sur un poste Windows de manière simple et rapide en utilisant XAMPP :
